@@ -4,14 +4,14 @@
 
 To ensure the application is functional and secure please follow the guidelines below:
 
-    * __Never__ check in usernames, passwords or other sensitive data to the repo
-    * Integrate CI/CD to the repository
-        * Specify branches that `need` CI/CD
-        * Ensure all CI/CD pipelines before merging code to the designated `main` branch
-        * Ensure proper merging authorization to the correct individuals
-    * Add unit tests for any new code functionality
-        * Look for corner cases and validate user input
-    * If existing code is updated then update unit tests to ensure new requirements are accounted for in testing
+ * __Never__ check in usernames, passwords or other sensitive data to the repo
+ * Integrate CI/CD to the repository
+     * Specify branches that `need` CI/CD
+     * Ensure all CI/CD pipelines before merging code to the designated `main` branch
+     * Ensure proper merging authorization to the correct individuals
+ * Add unit tests for any new code functionality
+     * Look for corner cases and validate user input
+ * If existing code is updated then update unit tests to ensure new requirements are accounted for in testing
 
 ## How do I interpret user needs and incorporate them into a program?
 
